@@ -1,0 +1,265 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+    background:wheat;
+    color: black;
+  }
+  
+  header {
+    background: red;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    text-decoration: none;
+  }
+  
+  nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+   
+  }
+  .bgimg{
+    background-image: url(./images/1.jpg);
+    height: 800px;
+    position: absolute;
+    width: 100%;
+    margin-top: 30px;
+  }
+  .home-main {
+    text-align: center;
+  }
+  
+  .welcome {
+    margin-bottom: 50px;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    margin-top: 15px;
+    background: orangered;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+
+  .content{
+    margin-top:300px;
+    margin-left: 54%;
+    bottom: 60%;
+    font-size: 30px;
+  }
+  .recipe-img {
+    width: 100%;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    height: 300px;
+  }
+  
+  .recipe-card img {
+    width: 100%;
+    border-radius: 10px;
+    height: 300px;
+    
+  }
+  
+  .recipe-card h4 {
+    margin-top: 15px;
+    font-size: 20px;
+  }
+  
+  .btn {
+    display: inline-block;
+    margin-top: 10px;
+    background: orangered;
+    color: white;
+    padding: 8px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  .recipe-list {
+    padding: 40px 20px;
+    text-align: center;
+    background-image: url('./images/recipebg.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+  }
+  
+  .recipe-list .grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    margin-top: 30px;
+    padding: 0 20px;
+    height: 300px;
+  }
+  .Backbtn {
+    display: inline-block;
+    background: orangered;
+    color: white;
+    padding: 8px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  .contact-section, .recipe-details {
+    padding: 40px 20px;
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  }
+ 
+  
+  
+  .contact-form input, .contact-form textarea {
+    width: 95%;
+    padding: 12px;
+    margin: 10px 0 20px;
+    border-radius: 8px;
+    border: 1px solid black;
+  }
+  
+  .contact-form button {
+    background-color: orangered;
+    color: white;
+    padding: 10px 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    color: black;
+  }
+  
+  header {
+    background-image: url('./images/navbg.jpg');
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  nav {
+    margin-top: 10px;
+  }
+  
+  nav a {
+    color: white;
+    margin: 0 10px;
+    font-weight: bold;
+  }
+  
+  .login-body {
+    background-image: url('./images/loginbg.avif');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-size: cover;
+  }
+  
+  .login-container {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+    width: 300px;
+  }
+  
+  .login-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .login-container input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid white;
+    border-radius: 5px;
+  }
+  
+  .login-container button {
+    width: 100%;
+    padding: 10px;
+    background: orangered;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .signup-link {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 16px;
+  }
+  
+  .signup-link a {
+    color: orangered;
+    text-decoration: none;
+  }
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0fdf4;
+    color: #333;
+  }
+  
+  
+  
+  .menu-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+    gap: 30px;
+  }
+  
+  .menu-item {
+    background-color: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+  }
+  
+  .menu-item:hover {
+    transform: scale(1.02);
+  }
+  
+  .menu-item img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+  }
+  
+  .menu-item h3 {
+    font-size: 1.2rem;
+    margin: 0.8rem;
+  }
+  
+  .menu-item p {
+    font-size: 20px;
+    color: gray;
+    margin: 0 0.8rem 1rem;
+  }
+
+  
+ 
+  
+  
+  
+  
+ 
